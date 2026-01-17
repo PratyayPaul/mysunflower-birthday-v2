@@ -1,0 +1,498 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday, MySunflower 🌻</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- ===================== -->
+<!-- 🔒 PASSWORD GATE -->
+<!-- ===================== -->
+<div class="gate" id="gate">
+  <div class="gate-card">
+    <h1 class="gate-title">Hello, MySunflower 🌻🤍</h1>
+
+    <p class="gate-sub">
+      A little surprise, made with all my love just for you.
+    </p>
+
+    <!-- ✅ Password hints (two lines, clean + premium) -->
+    <p class="pw-hints">
+      <strong>Hint:</strong> It’s the name I say with “I love you” 🤍<br/>
+      <strong>Also:</strong> It’s literally the first thing you see here 😌
+    </p>
+
+    <div class="gate-row">
+      <input
+        id="pwInput"
+        class="gate-input"
+        type="password"
+        placeholder="Enter the password…"
+        autocomplete="off"
+      />
+      <button id="unlockBtn" class="btn primary btn-hero">Unlock 💜</button>
+    </div>
+
+    <p id="gateMsg" class="gate-msg"></p>
+  </div>
+</div>
+
+
+    <!-- ===================== -->
+    <!-- ✅ YOUR WEBSITE CONTENT -->
+    <!-- ===================== -->
+    <div id="siteContent" class="hidden">
+      <main class="wrap">
+        <section class="card">
+          <h1>Happy Birthday, My Love 💜🤍</h1>
+
+          <p class="sub">
+            Oeshmita, this page is a small surprise from me to you, made with
+            love and a little bit of code. Even from miles away, you are the
+            best part of my days, and today I am celebrating you with my whole
+            heart 🤍✨
+          </p>
+
+          <div class="btn-row">
+            <button id="startBtn" class="btn primary">
+              Open your surprise 🎁✨
+            </button>
+          </div>
+
+          <div id="surprise" class="hidden">
+            <!-- 1) BEFORE YOU GO FURTHER -->
+            <div class="letter">
+              <h2>Before you go further… 🤍</h2>
+              <p class="letter-main">
+                Even miles away, you are still right here with me. Always 🫶🫂
+              </p>
+              <p class="hint">Tap “Next” to keep going…</p>
+              <button id="nextBtn" class="btn small ghost">Next ➜</button>
+            </div>
+
+            <!-- 2) OUR COLLAGE (revealed on Next) -->
+            <div id="ourCollage" class="hidden">
+              <h3 class="media-title">
+                A few little moments of us and in the middle, RadhaKrishna’s
+                blessings 🙏🤍✨<br />
+                Because I want our love to always stay protected, peaceful, and
+                forever.
+              </h3>
+
+              <div class="media-box">
+                <img
+                  class="collage collage-large"
+                  src="assets/Our_Collage.png"
+                  alt="Our collage with RadhaKrishna"
+                />
+
+                <div class="reveal-card">
+                  <p class="reveal-text">
+                    A little more love, just for you 🌻🤍
+                  </p>
+                  <button id="revealMishtiBtn" class="btn primary btn-hero">
+                    See my favorite you 🌻🤍
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- 3) MISHTI COLLAGE (revealed by button) -->
+            <div id="media" class="hidden">
+              <h3 class="media-title">
+                I picked a few of my favorite photos of you because every time I
+                see your smile, it feels like home. Just little moments of you
+                that I never want to forget 🤍
+              </h3>
+
+              <div class="media-box">
+                <img
+                  class="collage"
+                  src="assets/Shonai.png"
+                  alt="A little collage of you"
+                />
+
+                <div class="reveal-card">
+                  <p class="reveal-text">
+                    A little note from my heart to yours 💌🤍
+                  </p>
+                  <button id="revealLetterBtn" class="btn small primary">
+                    Read my heart 🤍
+                  </button>
+                </div>
+
+                <!-- LOVE LETTER -->
+                <div class="letter-card hidden" id="loveLetter">
+                  <div class="letter-paper">
+                    <img
+                      class="krishna-top"
+                      src="assets/krishna_flute.jpg"
+                      alt="Krishna flute"
+                    />
+
+                    <div class="letter-head">
+                      <h3 class="letter-title">A letter for you 💌</h3>
+                    </div>
+
+                    <div class="letter-text">
+                      <!-- keep your letter text exactly as you wrote -->
+                      <p>Hi Oeshmita,</p>
+                      <p>Wishing you the happiest birthday, love 🤍💜✨</p>
+
+                      <p>
+                        May this year bring you the softest joy, the brightest
+                        health, and all the love your heart deserves 🧿🤍
+                      </p>
+
+                      <p>
+                      First, I want to thank Lord Krishna 🙏🏼 I truly believe he
+                      brought you into my life right when I needed you most. You
+                      are not just someone I love, you are my best friend, my
+                      soulmate, my peace, my biggest blessing, MySunflower 🌻🤍
+                      Even from miles away, you make my world feel warmer 🫶✨
+                    </p>
+
+                    <p>
+                      Oeshmita, I am so grateful for you, for your patience,
+                      your softness, your strength, and the way you love with so
+                      much purity 🥹🤍 Thank you for understanding me in ways I
+                      don’t even know how to explain. Thank you for listening to
+                      me, believing in me, and making me feel like I am never
+                      alone. You have this rare magic the kind that calms my
+                      chaos and makes me want to become better, not out of
+                      pressure, but out of love 🫶🤍
+                    </p>
+
+                    <p>
+                      I love every little things about you baby 🥰 Your smile,
+                      your eyes, the way you look in your glasses when you are
+                      reading, the love you carry for books, your voice, the way
+                      you become emotional so easily because your heart is so
+                      pure. The way you are so honest and sincere, yet true to
+                      who you are you stand out. To me, you are my queen, and
+                      I want to make sure you feel that love every single day
+                      👑🫶
+                    </p>
+
+                    <p>
+                      You are my motivation, Oeshmita the best part of my
+                      life. You are intelligent, capable, and I will always
+                      believe in you. Your beauty captivates me baby and I love
+                      you exactly the way you are 😘😚
+                    </p>
+
+                    <p>
+                      I hope this year is kind to you full of reasons to
+                      smile, days that feel lighter, and moments that remind you
+                      how deeply you are loved. May Lord Krishna protect you,
+                      guide you, and keep you surrounded by peace. No matter
+                      what this year brings, I will be right here cheering for
+                      you, praying for you, and loving you more every day. And I
+                      promise you this: wherever life takes us, my love will
+                      keep choosing you, again and again ♾️🧿🤍
+                    </p>
+
+                    <p>Happy Birthday, Shonai 🤍💜🌻</p>
+
+                    <p>
+                      I can't wait for the day I get to hold you and say all of
+                      this in person 🫂🫶🤍
+                    </p>
+
+
+                      <p class="sign">
+                        Always yours,<br />
+                        Pratyay 🫶🫂
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- FINAL SURPRISE (hidden, shown later by JS if you want) -->
+                <div class="final hidden" id="finalSurprise">
+                  <h3 class="final-title">Final Surprise 🎂✨</h3>
+                  <p class="final-sub">
+                    This is me, in the most honest way for you, always 🤍♾️
+                  </p>
+
+                   <p class="final-note">
+                     I made a little cake moment for you 🎂🤍
+                </p>
+
+                  <div class="final-cta">
+                <button id="playVideoBtn" class="btn primary btn-hero btn-final">
+                  Press play, my love 🎥🤍
+                </button>
+
+                <p class="final-note">
+                  Best with earbuds 🎧
+                  <span class="final-note-soft">(I want you to hear every word.)</span>
+                </p>
+              </div>
+
+                  <div class="video-wrap hidden" id="videoWrap">
+                    <video
+                      id="finalVideo"
+                      class="final-video"
+                      controls
+                      playsinline
+                      preload="metadata"
+                      poster="assets/Birthday_Cake.png"
+                    >
+                      <source
+                        src="assets/final_surprise.mp4"
+                        type="video/mp4"
+                      />
+                      Your browser does not support the video tag.
+                    </video>
+                  </div>
+
+                  <div class="sweet-note hidden" id="sweetNote">
+                <div class="sweet-paper">
+                  <p class="sweet-text">
+                    That’s all, my love 🤍<br />
+                    I hope this made you smile, even a little.<br />
+                    I just wanted you to feel how much you mean to me<br />
+                    more than words, more than distance.<br /><br />
+                    And what I feel for you will always be bigger than any page or video.<br />
+                    Because you are my favorite part of life, always 🫶🫂🤍<br /><br />
+                    Happy Birthday, baby 😘😚<br />
+                    Always and forever, yours,<br />
+                    <span class="sweet-sign">Pratyay 🌻♾️</span>
+                  </p>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <p class="footer">For my sunflower — always and forever 🌻♾️🤍</p>
+        </section>
+      </main>
+
+      <!-- FX layer -->
+      <div id="fx" class="fx" aria-hidden="true"></div>
+
+      <!-- Audio -->
+      <audio
+        id="bdayAudio"
+        preload="auto"
+        loop
+        src="assets/happy_birthday.mp3"
+      ></audio>
+      <audio
+        id="romanticAudio"
+        preload="auto"
+        loop
+        src="assets/romantic_music.mp3"
+      ></audio>
+    </div>
+
+    <!-- ===================== -->
+    <!-- ✅ JS -->
+    <!-- ===================== -->
+    <script>
+      // -----------------------
+      // 🔒 Password gate logic
+      // -----------------------
+      const gate = document.getElementById("gate");
+      const siteContent = document.getElementById("siteContent");
+      const pwInput = document.getElementById("pwInput");
+      const unlockBtn = document.getElementById("unlockBtn");
+      const gateMsg = document.getElementById("gateMsg");
+
+      // ✅ Change this to your secret password
+      const PASSWORD = "MySunflower";
+
+      function unlockSite() {
+        gate.classList.add("hidden");
+        siteContent.classList.remove("hidden");
+      }
+
+      function checkPassword() {
+        const attempt = (pwInput.value || "").trim();
+        if (!attempt) {
+          gateMsg.textContent = "Type something first, baby 🌻🤍";
+          return;
+        }
+
+        if (attempt.toLowerCase() === PASSWORD.toLowerCase()) {
+          unlockSite();
+        } else {
+          gateMsg.textContent = "Not this one 😛 Try again…";
+          pwInput.value = "";
+          pwInput.focus();
+        }
+      }
+
+      unlockBtn.addEventListener("click", checkPassword);
+      pwInput.addEventListener("keydown", (e) => {
+        if (e.key === "Enter") checkPassword();
+      });
+
+      // -----------------------
+      // Existing page logic
+      // -----------------------
+      const startBtn = document.getElementById("startBtn");
+      const surprise = document.getElementById("surprise");
+
+      const nextBtn = document.getElementById("nextBtn");
+      const ourCollage = document.getElementById("ourCollage");
+
+      const revealMishtiBtn = document.getElementById("revealMishtiBtn");
+      const media = document.getElementById("media");
+
+      const revealLetterBtn = document.getElementById("revealLetterBtn");
+      const loveLetter = document.getElementById("loveLetter");
+
+      const finalSurprise = document.getElementById("finalSurprise");
+      const playVideoBtn = document.getElementById("playVideoBtn");
+      const videoWrap = document.getElementById("videoWrap");
+      const sweetNote = document.getElementById("sweetNote");
+      const finalVideo = document.getElementById("finalVideo");
+
+      const fx = document.getElementById("fx");
+      const bdayAudio = document.getElementById("bdayAudio");
+      const romanticAudio = document.getElementById("romanticAudio");
+
+      function rand(min, max) {
+        return Math.random() * (max - min) + min;
+      }
+
+      function stopAudio(audioEl) {
+        if (!audioEl) return;
+        audioEl.pause();
+        audioEl.currentTime = 0;
+      }
+
+      async function safePlay(audioEl) {
+        if (!audioEl) return;
+        try {
+          await audioEl.play();
+        } catch (e) {
+          console.log("Audio play blocked:", e);
+        }
+      }
+
+      function burstConfetti(count = 120) {
+        for (let i = 0; i < count; i++) {
+          const piece = document.createElement("span");
+          piece.className = "confetti";
+          piece.style.left = rand(0, 100) + "vw";
+          piece.style.animationDuration = rand(2.8, 4.8) + "s";
+          piece.style.animationDelay = rand(0, 0.6) + "s";
+          piece.style.setProperty("--drift", rand(-80, 80) + "px");
+
+          const colors = [
+            "#6f4cff",
+            "#ffd35a",
+            "#ff5ea8",
+            "#2e7d32",
+            "#44c2ff",
+            "#ff8a3d",
+          ];
+          piece.style.background = colors[Math.floor(rand(0, colors.length))];
+
+          const w = rand(6, 12);
+          const h = rand(8, 16);
+          piece.style.width = w + "px";
+          piece.style.height = h + "px";
+
+          fx.appendChild(piece);
+          piece.addEventListener("animationend", () => piece.remove());
+        }
+      }
+
+      function launchBalloons(count = 10) {
+        for (let i = 0; i < count; i++) {
+          const b = document.createElement("span");
+          b.className = "balloon";
+          b.style.left = rand(5, 95) + "vw";
+          b.style.animationDuration = rand(7, 11) + "s";
+          b.style.animationDelay = rand(0, 1.2) + "s";
+          b.style.setProperty("--drift", rand(-120, 120) + "px");
+
+          const colors = [
+            "#6f4cff",
+            "#ffd35a",
+            "#ff5ea8",
+            "#44c2ff",
+            "#ff8a3d",
+            "#7ee081",
+          ];
+          b.style.background = colors[Math.floor(rand(0, colors.length))];
+
+          fx.appendChild(b);
+          b.addEventListener("animationend", () => b.remove());
+        }
+      }
+
+      startBtn.addEventListener("click", async () => {
+        surprise.classList.remove("hidden");
+        startBtn.disabled = true;
+
+        burstConfetti(140);
+        launchBalloons(12);
+        setTimeout(() => burstConfetti(80), 900);
+
+        stopAudio(romanticAudio);
+        bdayAudio.loop = true;
+        await safePlay(bdayAudio);
+
+        surprise.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+
+      nextBtn.addEventListener("click", () => {
+        ourCollage.classList.remove("hidden");
+        nextBtn.disabled = true;
+        ourCollage.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+
+      revealMishtiBtn.addEventListener("click", () => {
+        media.classList.remove("hidden");
+        revealMishtiBtn.disabled = true;
+        media.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+
+      revealLetterBtn.addEventListener("click", async () => {
+        loveLetter.classList.remove("hidden");
+        revealLetterBtn.disabled = true;
+
+        stopAudio(bdayAudio);
+        romanticAudio.loop = true;
+        await safePlay(romanticAudio);
+
+        // Show final surprise after letter (you can remove if you want manual)
+        finalSurprise.classList.remove("hidden");
+
+        loveLetter.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+
+      // Play video button
+      playVideoBtn.addEventListener("click", () => {
+        videoWrap.classList.remove("hidden");
+        playVideoBtn.disabled = true;
+        videoWrap.scrollIntoView({ behavior: "smooth", block: "start" });
+        finalVideo.play().catch(() => {});
+      });
+
+      // When video ends, show sweet note
+      finalVideo.addEventListener("ended", () => {
+        sweetNote.classList.remove("hidden");
+        sweetNote.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+
+      // Stop audio when video plays
+      finalVideo.addEventListener("play", () => {
+        stopAudio(romanticAudio);
+        stopAudio(bdayAudio);
+      });
+    </script>
+  </body>
+</html>
+
+
