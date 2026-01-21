@@ -305,7 +305,7 @@
       const gateMsg = document.getElementById("gateMsg");
 
       // ✅ Change this to your secret password
-      const PASSWORD = "MySunflower";
+      const PASSWORD = "My*#1902Sunflower";
 
       function unlockSite() {
         gate.classList.add("hidden");
@@ -319,7 +319,7 @@
           return;
         }
 
-        if (attempt.toLowerCase() === PASSWORD.toLowerCase()) {
+         if (attempt === PASSWORD) {
           unlockSite();
         } else {
           gateMsg.textContent = "Not this one 😛 Try again…";
